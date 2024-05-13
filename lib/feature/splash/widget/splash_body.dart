@@ -52,8 +52,8 @@ class _SplashBodyState extends State<SplashBody>
   }
 
   void goToNextView() {
-    Future.delayed(Duration(seconds: 3), () {
-      pushReplaceMent(context, OnBoarding());
+    Future.delayed(const Duration(seconds: 3), () {
+      pushReplaceMent(context, const OnBoarding());
     });
   }
 }
